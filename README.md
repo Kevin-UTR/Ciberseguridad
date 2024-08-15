@@ -4,12 +4,14 @@ Repositorio creado para guardar avances de **Keylogger**
 ******************************************************************************************************************************************************************************************************************************
 ## Keylogger en C para Linux (Ubuntu)
 
+
 ### **Descripción del programa**
 
 
 +- Este programa es un keylogger simple desarrollado en C el cual captura las teclas presionadas en un teclado y las guarda en un archivo de extensión .txt. 
 
 +-El programa está diseñado para ejecutarse en sistemas Linux y accede directamente a los dispositivos de entrada del sistema.
+
     
 ### **Pasos para compilar y ejecutar**
 
@@ -24,15 +26,18 @@ Repositorio creado para guardar avances de **Keylogger**
 
 +- El programa comenzará a capturar las teclas presionadas y las guardará en el archivo especificado por la constante LOGFILEPATH.
 
+
 ### **Pasos para visualizar el archivo de log** 
 
 +- Para abrir el archivo .txt y monitorear como se van guardando los cambios tenemos que dirigirnos desde otra terminal utilizando el código: cat “Ruta del archivo (nombredelprograma.txt)”
 
 +- Para que se actualice en tiempo real utilizamos el código: tail -f /”Ruta”/Archivo.txt
+
       
 ### **Finalizar programa:**
 
 +- Como el programa tiene un ciclo while que no tiene fin tenemos que presionar Ctrl + C para finalizar el programa.
+
     
 ### **Características de uso** 
 
@@ -44,11 +49,13 @@ Repositorio creado para guardar avances de **Keylogger**
 
 +- El programa asume que el teclado está configurado de manera estandar y que los códigos de teclas pueden mapearse directamente a caracteres ASCII.
 
+
 ### **Casos de uso**
 
 +- Un administrador de sistemas podría usar este programa para monitorear la entrada del teclado en un sistema específico, buscando que no se rompan las reglas de uso de un dispositivo de la empresa
 
 +- Podemos usar este programa en un entorno controlado para pruebas de seguridad, como parte de una auditoría para detectar vulnerabilidades relacionadas con la captura no autorizada de entrada de teclado.
+
 
 ### **Advertencias y consideraciones éticas**
 
