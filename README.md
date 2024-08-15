@@ -29,7 +29,7 @@ Repositorio creado para guardar avances de **Keylogger**
 
 ### **Pasos para visualizar el archivo de log** 
 
-+- Para abrir el archivo .txt y monitorear como se van guardando los cambios tenemos que dirigirnos desde otra terminal utilizando el código: cat “Ruta del archivo (nombredelprograma.txt)”
++- Para abrir el archivo .txt y monitorear como se van guardando los cambios tenemos que dirigirnos desde otra terminal utilizando el código: cat “Ruta/del/archivo/(nombredelprograma.txt)”
 
 +- Para que se actualice en tiempo real utilizamos el código: tail -f /”Ruta”/Archivo.txt
 
