@@ -5,6 +5,7 @@ Repositorio creado para guardar el progreso de la tarea Seguridad Informatica
 **Keylogger en C para Linux (Ubuntu)**
 
 **Descripción del programa**
+   
     • Este programa es un keylogger simple desarrollado en C el cual captura las teclas presionadas en un teclado y las guarda en un archivo de extensión .txt. El programa está diseñado para ejecutarse en sistemas Linux y accede directamente a los dispositivos de entrada del sistema.
     
 **Pasos para compilar y ejecutar**
