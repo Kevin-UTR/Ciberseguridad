@@ -52,7 +52,7 @@ Repositorio creado para guardar avances de **Keylogger**
 
 ### **Casos de uso**
 
-+- Un administrador de sistemas podría usar este programa para monitorear la entrada del teclado en un sistema específico, buscando que no se rompan las reglas de uso de un dispositivo de la empresa
++- Un administrador de sistemas podría usar este programa para monitorear la entrada del teclado en un sistema específico, buscando que no se rompan las reglas de uso de el mismo.
 
 +- Podemos usar este programa en un entorno controlado para pruebas de seguridad, como parte de una auditoría para detectar vulnerabilidades relacionadas con la captura no autorizada de entrada de teclado.
 
