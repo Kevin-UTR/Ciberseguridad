@@ -16,7 +16,7 @@ Repositorio creado para guardar avances de **Keylogger**
 ### **Pasos para compilar y ejecutar**
 
 
-+- CLona el programa el directorio: https://github.com/Kevin-UTR/Ciberseguridad
++- CLona el directorio: https://github.com/Kevin-UTR/Ciberseguridad
 
 +- Compila el programa: gcc -o keylogger keylogger.c
 
