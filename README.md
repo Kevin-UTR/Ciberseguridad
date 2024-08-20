@@ -16,22 +16,20 @@ Repositorio creado para guardar avances de **Keylogger**
 ### **Pasos para compilar y ejecutar**
 
 
-+- Guarda el archivo en una extensión .c ejemplo = keylogger.c
++- CLona el programa el directorio: https://github.com/Kevin-UTR/Ciberseguridad
 
-+- Encuentra la dirección de medicante cd para dirigirte a una carpeta y ls revisando los archivos de la carpeta.
-
-+- Compila el programa con: gcc -o keylogger keylogger.c
++- Compila el programa: gcc -o keylogger keylogger.c
 
 +- Ejecuta el programa con permisos de superusuario: sudo ./keylogger
 
-+- El programa comenzará a capturar las teclas presionadas y las guardará en el archivo especificado por la constante LOGFILEPATH.
++- El programa comenzará a capturar las teclas presionadas
 
 
 ### **Pasos para visualizar el archivo de log** 
 
-+- Para abrir el archivo .txt y monitorear como se van guardando los cambios tenemos que dirigirnos desde otra terminal utilizando el código: cat “Ruta/del/archivo/(nombredelprograma.txt)”
++- Para abrir el archivo .txt y monitorear como se van guardando los cambios tenemos que dirigirnos desde otra terminal: cat “Ruta/del/archivo/(nombredelprograma.txt)”
 
-+- Para que se actualice en tiempo real utilizamos el código: tail -f /”Ruta”/Archivo.txt
++- PActualiaciónven tiempo real: tail -f /”Ruta”/Archivo.txt
 
       
 ### **Finalizar programa:**
